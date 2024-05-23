@@ -30,14 +30,6 @@ env-test:
         @echo $(TRAEFIK_NETWORK)
 ```
 
-## Anatomy:
-- Script identifies caller process
-- Last part of caller process is matched against the env variables available to be offered
-- If there is a set of variables assigned for that process bit, it will be offered.
-
-- New random gets created
-- 
-
 ## Debugging:
 All events are being logged to syslog. 
 Example:
